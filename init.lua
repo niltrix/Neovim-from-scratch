@@ -19,3 +19,4 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+vim.api.nvim_set_var("python3_host_prog", "/home/bj/anaconda3/envs/neovim/bin/python3.10")
