@@ -38,6 +38,11 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
+-- provide hjkl movements in Insert mode via the <Alt> modifier key
+--keymap("i", "<A-h>", "<C-o>h", opts)
+--keymap("i", "<A-j>", "<C-o>j", opts)
+--keymap("i", "<A-k>", "<C-o>k", opts)
+--keymap("i", "<A-l>", "<C-o>l", opts)
 
 -- Visual --
 -- Stay in indent mode
